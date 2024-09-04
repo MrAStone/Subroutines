@@ -10,10 +10,18 @@ namespace Subroutines
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            Console.WriteLine( Math.Pow(7,2));
-
+            Console.WriteLine("Hello World"); // This is a procedure
+            Console.WriteLine( Math.Pow(7,2)); // this is a function as it returns a value
+            sayHello(); // this is a subroutine
+            sayHello();
+        }
+        static void sayHello()
+        {
+            Console.WriteLine("Hello");
+            Console.WriteLine("Look at me!");
+            Console.WriteLine("I am a subroutine");
 
         }
+       
     }
 }
